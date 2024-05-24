@@ -1,0 +1,527 @@
+﻿*
+{
+    margin: 0;
+    padding: 0;
+}
+body 
+{
+    background-color: #808080;
+    color: #efefef;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 20px;
+}
+h1.logo 
+{
+    font-size: 80px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    letter-spacing: 20px;
+}
+nav 
+{
+    text-align: center;
+}
+
+.pasek
+{
+    width: 100%;
+    height: 65px;
+    background-color: #1a1717;
+   
+}
+
+.pierwsza
+{
+   padding-bottom: 50px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 70px;
+    margin-top: 60px;
+}
+
+img
+{
+   width: 70%;
+   padding-top: 50px;
+}
+
+figure
+{
+    display: inline-block;
+}
+
+.artysta a
+{
+    opacity: 2;
+}
+
+.artysta a:hover
+{
+    opacity: 0.75;
+}
+
+.zdjecia
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+    text-align: center;
+}
+
+figcaption
+{
+    font-size: 88px;
+}
+
+footer 
+{
+  background-color: #1a1717;
+  width: 100%;
+  height: 170px;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom:15px;
+}
+
+footer > p 
+{
+    padding: 20px;
+}
+
+.menuprzycisk
+{
+    background-color: #1a1717;
+    color: white;  
+    font-size: 30px;
+    border: none;
+    padding-top: 32px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 34px;
+    width: 440px;
+
+}
+
+.menu
+{
+    position: relative;
+    display: inline-block;
+}
+
+.menu-content 
+{
+    display: none;
+    position: absolute;
+    background-color: #282020;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.menu-content a 
+{
+    color: #f1f1f1; 
+    padding: 13px;
+    text-decoration: none;
+    display: block;
+    width: 415px;
+}
+
+.menu-content a:hover 
+{
+    background-color: #533f3f;
+	cursor: pointer;
+}
+.menu:hover .menu-content 
+{
+    display: block;
+}
+
+.menu:hover .menuprzycisk 
+{
+    background-color: #282020;
+	cursor: pointer;
+}
+
+.pasekmenu 
+{
+    background-color: #1a1717;
+    width: 100%;
+    height: 100px;
+}
+
+button > a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+#dawid 
+{
+    padding: 20px;
+    text-align: justify;
+    
+}
+
+section > header 
+{
+    font-size: 70px;
+    padding: 50px 30px 0 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#dawid p::first-letter 
+{
+    font-size: 30px;
+}
+
+#dawid p::after
+{
+    content: "SUPER ARTYSTA!";
+    color: #171515;
+}
+.padding
+{
+    padding-bottom: 40px;
+}
+
+a[href*="www."]
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.img img
+{
+    padding: 15px 15px 15px 15px;
+    width: 15%;
+    display: inline-block;
+}
+
+.h1
+{
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+    font-weight: 700;
+}
+
+ol
+{
+    font-size: 25px;
+    text-align: center;
+}
+
+ol > li
+{
+    padding: 20px;
+}
+
+.niewidzialny 
+{
+    min-height: 50px;
+    width: 100%;
+    background-color: #808080;
+}
+
+#linkinpark 
+{
+    padding: 20px;
+    text-align: justify;
+}
+
+#linkinpark p::first-letter 
+{
+    font-size: 30px;
+}
+
+.img figcaption
+{
+   font-size: 10px;
+}
+
+.img1
+{
+    width: 100%;
+    text-align: center;
+}
+
+.img1 img 
+{
+    padding: 15px 100px 15px 100px;
+    min-width: 300px;
+    max-width: 300px;
+    display: inline-block;
+}
+
+.img1 figcaption
+{
+    font-size: 20px;
+}
+
+.formularz
+{
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=text]
+{
+    width: 30%;
+    height: 50px;
+}
+
+input[type=password] {
+    width: 30%;
+    height: 50px;
+}
+
+input:placeholder-shown
+{
+    text-align: center;
+    
+}
+h6
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.wai 
+{
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.16, rgb(207, 207, 207)), color-stop(0.79, rgb(252, 252, 252)));
+    background-image: -moz-linear-gradient(center bottom, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%);
+    background-image: linear-gradient(to top, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%);
+    padding: 1px;
+    border: 0.25px solid #000;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.wai:hover
+{
+    border: 0.25px solid #1f82ed;
+    background-image: none;
+    background-color: #bdfafc;
+}
+
+@media only screen and (max-width: 1200px)
+{
+    body
+    {
+        font-size: 16px;
+    }
+    .pasekmenu 
+    {
+        background-color: #1a1717;
+        width: 100%;
+        height: 100px;
+        padding-top: 10px;
+    }
+    .menuprzycisk {
+        font-size: 20px;
+        color: white;
+        border: none;
+        padding-top: 32px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 34px;
+        width: 250px;
+    }
+    .menu-content a {
+        font-size: 15px;
+        color: #f1f1f1;
+        padding: 13px;
+        text-decoration: none;
+        display: block;
+        width: 224px;
+    }
+    h1.logo 
+    {
+        font-size: 50px;
+    }
+    .img
+    {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .img img
+    
+    {
+    width: 13%;
+    text-align: center;
+    display: inline-block;
+    }
+    .header
+    {
+        font-size: 36px;
+    }
+    .h1
+    {
+        font-size: 30px;
+    }
+
+    ol
+    {
+        font-size: 16px;
+    }
+
+    figcaption
+    {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+    h6
+    {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    fieldset 
+    {
+        font-size: 16px;
+    }
+    .img1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .img1 img 
+    {
+        padding: 15px 50px 15px 50px;
+        min-width: 200px;
+        max-width: 200px;
+        display: inline-block;
+    }
+
+    .zdjecia 
+    {
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+        text-align: center;
+    }
+    footer
+    {
+        font-size: 13px;
+        padding-bottom: 3px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 13px;
+    }
+
+    .menu {
+        position: relative;
+        display: block;
+    }
+
+    .pasekmenu {
+        background-color: #1a1717;
+        width: 100%;
+        height: 365px;
+    }
+
+    .menuprzycisk {
+        font-size: 20px;
+        color: white;
+        border: none;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        width: 100%;
+    }
+
+    .menu-content {
+        display: none;
+        position: absolute;
+        background-color: #282020;
+        width: 100%;
+        z-index: 1;
+    }
+
+        .menu-content a {
+            font-size: 15px;
+            color: #f1f1f1;
+            padding: 13px;
+            text-decoration: none;
+            display: block;
+            width: 100%;
+        }
+
+
+    h1.logo {
+        font-size: 40px;
+        margin-left: 10px;
+    }
+
+    .img {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+        .img img {
+            width: 11%;
+            text-align: center;
+            display: inline-block;
+        }
+
+    .header {
+        font-size: 28px;
+    }
+
+    .h1 {
+        font-size: 25px;
+    }
+
+    ol {
+        font-size: 13px;
+    }
+
+    figcaption {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    h6 {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    fieldset {
+        font-size: 13px;
+    }
+
+    .img1 {
+        width: 100%;
+        text-align: center;
+    }
+
+        .img1 img {
+            padding: 15px 50px 15px 50px;
+            min-width: 200px;
+            max-width: 200px;
+            display: inline-block;
+        }
+
+    .zdjecia {
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        text-align: center;
+    }
+
+    footer {
+        font-size: 10px;
+        padding-top: 5px;
+    }
+}
+   
